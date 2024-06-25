@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Undangan Pernikahan</h1>
+        <p>Nama Pasangan: [Nama Anda] & [Nama Pasangan]</p>
+        <p>Tanggal: [Tanggal Pernikahan]</p>
+        <p>Lokasi: [Lokasi Pernikahan]</p>
+    </header>
+
+    <section id="story">
+        <h2>Cerita Kami</h2>
+        <p>[Cerita cinta Anda]</p>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvpForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="attendance">Kehadiran:</label>
+            <select id="attendance" name="attendance" required>
+                <option value="yes">Ya, saya akan hadir</option>
+                <option value="no">Maaf, saya tidak bisa hadir</option>
+            </select>
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="rsvpResponse"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Nama Anda] & [Nama Pasangan].</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
